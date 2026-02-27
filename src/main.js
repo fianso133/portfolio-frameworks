@@ -1,4 +1,5 @@
 import './tailwind.css'
+import './scss/main.scss'
 
 document.querySelector('#app').innerHTML = `
   <div>

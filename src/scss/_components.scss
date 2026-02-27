@@ -1,0 +1,43 @@
+.btn-primary-custom {
+  background: $accent;
+  border: none;
+  color: #fff;
+
+  &:hover {
+    background: $accent-hover;
+    color: #fff;
+  }
+}
+
+.btn-outline-custom {
+  border: 1px solid $accent;
+  color: $accent;
+  background: transparent;
+
+  &:hover {
+    background: $bg-surface;
+    color: $accent;
+  }
+}
+
+.form-control {
+  background: $bg-surface;
+  border: 1px solid $border-subtle;
+  color: $text-primary;
+
+  &:focus {
+    background: $bg-surface;
+    border-color: $accent;
+    box-shadow: none;
+    color: $text-primary;
+  }
+}
+
+.card-custom {
+  background: $bg-surface;
+  border: 1px solid $border-subtle;
+
+  &:hover {
+    border-color: $accent;
+  }
+}

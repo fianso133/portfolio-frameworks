@@ -1,0 +1,21 @@
+body {
+  background: $bg-base;
+  color: $text-primary;
+  font-family: 'Inter', sans-serif;
+}
+
+.container-custom {
+  max-width: 1100px;
+}
+
+.border-subtle {
+  border-color: $border-subtle !important;
+}
+
+.text-secondary-custom {
+  color: $text-secondary;
+}
+
+.bg-surface {
+  background: $bg-surface;
+}
